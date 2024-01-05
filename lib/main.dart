@@ -4,7 +4,7 @@ import 'package:uiux/splashscreen.dart';
 import 'homepage.dart';
 
 void main() {
-  runApp(Main());
+  runApp(const Main());
 }
 
 class Main extends StatelessWidget {
@@ -12,7 +12,7 @@ class Main extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: SplashScreen(),
     );
   }

@@ -13,9 +13,9 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     // TODO: implement initState
-    Future.delayed(Duration(seconds: 10), () {
+    Future.delayed(const Duration(seconds: 10), () {
       Navigator.of(context)
-          .push(MaterialPageRoute(builder: (context) => HomePage()));
+          .push(MaterialPageRoute(builder: (context) => const HomePage()));
     });
     super.initState();
   }
@@ -32,12 +32,12 @@ class _SplashScreenState extends State<SplashScreen> {
               child: Container(
                 height: 250,
                 width: 250,
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                   color: Colors.black,
                   borderRadius: BorderRadius.all(Radius.circular(15)),
                   boxShadow: [
-                    new BoxShadow(
-                      color: Colors.white,
+                    BoxShadow(
+                      color: Colors.black,
                       blurRadius: 8,
                       spreadRadius: 4,
                     ),
@@ -53,7 +53,7 @@ class _SplashScreenState extends State<SplashScreen> {
               child: AnimatedTextKit(
                 animatedTexts: [
                   WavyAnimatedText('ARJUN',
-                      textStyle: TextStyle(
+                      textStyle: const TextStyle(
                           color: Colors.black,
                           fontSize: 40,
                           fontWeight: FontWeight.bold)),
@@ -68,8 +68,8 @@ class _SplashScreenState extends State<SplashScreen> {
               padding: const EdgeInsets.only(left: 100),
               child: AnimatedTextKit(
                 animatedTexts: [
-                  WavyAnimatedText('web solutions',
-                      textStyle: TextStyle(
+                  WavyAnimatedText('Web Solutions',
+                      textStyle: const TextStyle(
                           color: Colors.pinkAccent,
                           fontSize: 40,
                           fontWeight: FontWeight.bold)),

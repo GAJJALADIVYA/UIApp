@@ -70,7 +70,7 @@ class _HomePageState extends State<HomePage> {
                     borderRadius: BorderRadiusDirectional.circular(20),
                     color: Colors.white.withOpacity(0.8),
                   ),
-                  child: Center(
+                  child: const Center(
                     child: Text(
                       "What We Do",
                       style: TextStyle(color: Colors.black, fontSize: 20),
@@ -87,7 +87,7 @@ class _HomePageState extends State<HomePage> {
                     borderRadius: BorderRadiusDirectional.circular(20),
                     color: Colors.white.withOpacity(0.8),
                   ),
-                  child: Center(
+                  child: const Center(
                     child: Text(
                       "Portfolio",
                       style: TextStyle(color: Colors.black, fontSize: 20),
@@ -104,7 +104,7 @@ class _HomePageState extends State<HomePage> {
                     borderRadius: BorderRadiusDirectional.circular(20),
                     color: Colors.white.withOpacity(0.8),
                   ),
-                  child: Center(
+                  child: const Center(
                     child: Text(
                       "careers",
                       style: TextStyle(color: Colors.black, fontSize: 20),
@@ -121,7 +121,7 @@ class _HomePageState extends State<HomePage> {
                     borderRadius: BorderRadiusDirectional.circular(20),
                     color: Colors.white.withOpacity(0.8),
                   ),
-                  child: Center(
+                  child: const Center(
                     child: Text(
                       "Reach Us",
                       style: TextStyle(color: Colors.black, fontSize: 20),
@@ -138,7 +138,7 @@ class _HomePageState extends State<HomePage> {
                     borderRadius: BorderRadiusDirectional.circular(5),
                     color: Colors.orange.withOpacity(0.8),
                   ),
-                  child: Center(
+                  child: const Center(
                     child: Text(
                       "Get A QUOTE",
                       style: TextStyle(color: Colors.black, fontSize: 20),
@@ -158,10 +158,10 @@ class _HomePageState extends State<HomePage> {
               children: [
                 Container(
                   height: 350,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     color: Colors.grey,
                     borderRadius: BorderRadius.zero,
-                    image: const DecorationImage(
+                    image: DecorationImage(
                       opacity: 0.7,
                       fit: BoxFit.cover,
                       image: AssetImage(
@@ -180,17 +180,17 @@ class _HomePageState extends State<HomePage> {
                             Container(
                               height: 150,
                               width: 155,
-                              decoration: BoxDecoration(
+                              decoration: const BoxDecoration(
                                 borderRadius: BorderRadius.zero,
-                                image: const DecorationImage(
+                                image: DecorationImage(
                                   image: AssetImage(
                                     "assets/images/img_3.png",
                                   ),
                                 ),
                               ),
                             ),
-                            Padding(
-                              padding: const EdgeInsets.only(top: 35),
+                            const Padding(
+                              padding: EdgeInsets.only(top: 35),
                               child: Text(
                                 "Perfect Solution\nFor Company",
                                 style: TextStyle(
@@ -202,8 +202,8 @@ class _HomePageState extends State<HomePage> {
                           ],
                         ),
                       ),
-                      Padding(
-                        padding: const EdgeInsets.all(8.0),
+                      const Padding(
+                        padding: EdgeInsets.all(8.0),
                         child: Text(
                           "We Transform Ideas Into\nEngaging Digital Experiences",
                           style: TextStyle(
@@ -231,54 +231,10 @@ class _HomePageState extends State<HomePage> {
                           )),
                         ),
                       ),
-                      // Padding(
-                      //   padding: const EdgeInsets.all(8.0),
-                      //   child: SizedBox(
-                      //     child: Row(
-                      //       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      //       children: [
-                      //         Padding(
-                      //           padding: const EdgeInsets.all(8.0),
-                      //           child: Container(
-                      //             height: 40,
-                      //             decoration: BoxDecoration(
-                      //               borderRadius: BorderRadius.circular(40),
-                      //             ),
-                      //             child: Image.asset(
-                      //               "assets/images/img_7.png",
-                      //             ),
-                      //           ),
-                      //         ),
-                      //         Padding(
-                      //           padding: const EdgeInsets.all(8.0),
-                      //           child: Container(
-                      //               height: 40,
-                      //               width: 180,
-                      //               decoration: BoxDecoration(
-                      //                   borderRadius: BorderRadius.circular(30),
-                      //                   color: Colors.green),
-                      //               child: Row(
-                      //                 children: [
-                      //                   ClipRRect(
-                      //                     borderRadius: const BorderRadius.only(
-                      //                       topLeft: Radius.circular(30),
-                      //                       bottomLeft: Radius.circular(30),
-                      //                     ),
-                      //                     child:
-                      //                         Image.asset("assets/images/img_7.png"),
-                      //                   ),
-                      //                   Text("Meaaage Us"),
-                      //                 ],
-                      //               )),
-                      //         ),
-                      //       ],
-                      //     ),
-                      //   ),
-                      // ),
                     ],
                   ),
                 ),
-                Text(
+                const Text(
                   "What We Do",
                   style: TextStyle(
                     fontSize: 40,
@@ -345,9 +301,9 @@ class _HomePageState extends State<HomePage> {
                       "Arjun Web Solutions offers end-to-end\napplication maintenance and support services.",
                 ),
                 const About_Us(),
-                Submit(),
-                Reasons(),
-                Contact(),
+                const Submit(),
+                const Reasons(),
+                const Contact(),
               ],
             ),
           ],

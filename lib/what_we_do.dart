@@ -44,14 +44,14 @@ class What_We_Do extends StatelessWidget {
                             ),
                             Text(
                               text,
-                              style: TextStyle(
+                              style: const TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
                             Text(
                               text1,
                               style: TextStyle(fontSize: 15),
                             ),
-                            Text(
+                            const Text(
                               "Read More",
                               style: TextStyle(
                                   color: Colors.red,
@@ -67,7 +67,7 @@ class What_We_Do extends StatelessWidget {
                             ),
                           ],
                         ),
-                        SizedBox(
+                        const SizedBox(
                           width: 30,
                         ),
                         Padding(
@@ -79,11 +79,11 @@ class What_We_Do extends StatelessWidget {
                               ),
                               Text(
                                 text2,
-                                style: TextStyle(
+                                style: const TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
-                              Text(text3, style: TextStyle(fontSize: 15)),
-                              Text(
+                              Text(text3, style: const TextStyle(fontSize: 15)),
+                              const Text(
                                 "Read More",
                                 style: TextStyle(
                                     color: Colors.red,

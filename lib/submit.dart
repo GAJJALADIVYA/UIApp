@@ -24,11 +24,11 @@ class _SubmitState extends State<Submit> {
                 borderRadius: BorderRadius.zero, color: Colors.white),
             child: Column(
               children: [
-                Text(
+                const Text(
                   "Get a Free Quote",
                   style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),
                 ),
-                Text(
+                const Text(
                   "Name*",
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                 ),
@@ -59,7 +59,7 @@ class _SubmitState extends State<Submit> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "Phone*",
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                 ),
@@ -93,7 +93,7 @@ class _SubmitState extends State<Submit> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "Email-Address*",
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                 ),
